@@ -11,4 +11,4 @@ if [[ ! -f "$ZSH_CACHE_DIR/completions/_rg" ]]; then
   _comps[rg]=_rg
 fi
 
-rg --generate complete-zsh >| "$ZSH_CACHE_DIR/completions/_rg" &|
+rg --generate complete-zsh >| "$ZSH_CACHE_DIR/completions/_rg" 2>/dev/null &
