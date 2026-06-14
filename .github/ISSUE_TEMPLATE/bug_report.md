@@ -20,8 +20,8 @@ Steps to reproduce the behavior:
 **Expected behavior**
 A clear and concise description of what you expected to happen.
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+**Terminal Output**
+Please paste the exact command you ran and any error messages or output that demonstrate the problem.
 
 **Desktop (please complete the following information):**
  - OS: [e.g. iOS]
