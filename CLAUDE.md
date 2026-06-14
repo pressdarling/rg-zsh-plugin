@@ -21,9 +21,10 @@ The async generation (`&|`) ensures the plugin loads quickly without blocking th
 
 To test changes:
 
-1. Reload your shell or source the plugin: `source rg.plugin.zsh`
-2. Verify completions work: type `rg -` and press Tab
-3. Check the cache was generated: `ls $ZSH_CACHE_DIR/completions/_rg`
+1. Set ZSH_CACHE_DIR and create the completions directory: export ZSH_CACHE_DIR="${ZSH_CACHE_DIR:-$HOME/.cache/zsh}" && mkdir -p "$ZSH_CACHE_DIR/completions"
+2. Reload your shell or source the plugin: source rg.plugin.zsh
+3. Verify completions work: type rg - and press Tab
+4. Check the cache was generated: ls $ZSH_CACHE_DIR/completions/_rg
 
 ## Key Considerations
 
