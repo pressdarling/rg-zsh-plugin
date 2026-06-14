@@ -30,4 +30,4 @@ To test changes:
 - The plugin gracefully exits if `rg` is not installed (`(( ! ${+commands[rg]} ))`)
 - Completions are regenerated on every shell startup to stay current with the installed `rg` version
 - The cache file location is controlled by Oh My Zsh's `$ZSH_CACHE_DIR` variable
-- Completions are generated directly from `rg --generate complete-zsh` to ensure accuracy
+- Completions are generated directly from rg --generate complete-zsh (requires ripgrep v14.0.0 or newer) to ensure accuracy
